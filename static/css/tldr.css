@@ -1,0 +1,83 @@
+@font-face { font-family: AmbarPearl; src: url('Ambar\ Pearl.ttf'); } 
+@font-face { font-family: Futura; src: url('Futura\ Book.ttf')}
+
+body {
+  background-color: #1D2025;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: AmbarPearl;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  text-shadow: 1.5px 1.5px #10D4C2;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: Futura;
+}
+
+textarea {
+  color: white;
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #3A434C;
+  border: 2px solid whitesmoke;
+  border-radius: 4px;
+  outline: none;
+  font-size: 17px;
+  resize: none;
+  font-family: Futura;
+}
+
+.input {
+  text-align:center;
+}
+
+input[type=submit] {
+  background: transparent;
+  margin: 4px 2px;
+  border: 2px solid #0ED1C3;
+  border-radius: 10px;
+  color: white;
+  padding: 16px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: Futura;
+  will-change: transform;
+	transition: all .3s ease;
+}
+
+input[type=submit]:hover {
+  background-color: #0ED1C3;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+input[type=submit]:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.submit {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #3A434C;
+}
+::-webkit-scrollbar-thumb {
+  background: #b8b8b8;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e0e0e0;
+}

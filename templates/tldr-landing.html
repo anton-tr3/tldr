@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tl;dr</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/tldr.css') }}"  >
+    </head>
+
+    <body>
+        <h1>TL DR</h1>
+        <p>Summarise blocks of texts using OpenAI's GPT-3 language model</p>
+        <form method="POST", autocomplete="off">
+            <div class=input><textarea name="input" placeholder="Type or paste text here" rows=20></textarea></div>
+            <div class="submit"><input type="submit" value="Summarise"></div>
+        </form>
+    </body>
+</html>
+
